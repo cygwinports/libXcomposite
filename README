@@ -1,0 +1,75 @@
+libXcomposite
+------------------------------------------
+Xorg Composite extension library
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  libX11_6-1.0.0-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.7-1.7.9-1
+  binutils-20050610-1
+  cygport-0.1.0-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+  compositeproto-0.2.2-1
+  libXfixes-3.0.1.2-1
+  xorg-util-macros-1.0.1-1
+  xproto-7.0.4-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://ftp.x.org/pub/X11R7.0/src/everything/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libXcomposite-0.2.2.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libXcomposite-0.2.2.2-X.cygport all
+
+This will create:
+  /usr/src/libXcomposite-0.2.2.2-X-src.tar.bz2
+  /usr/src/libXcomposite-0.2.2.2-X.tar.bz2
+  /usr/src/libXcomposite1-0.2.2.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/include/X11/extensions/Xcomposite.h
+  /usr/lib/libXcomposite.dll.a
+  /usr/lib/libXcomposite.la
+  /usr/lib/pkgconfig/xcomposite.pc
+  /usr/share/doc/Cygwin/libXcomposite-0.2.2.2.README
+  /usr/share/doc/libXcomposite-0.2.2.2/AUTHORS
+  /usr/share/doc/libXcomposite-0.2.2.2/COPYING
+  /usr/share/doc/libXcomposite-0.2.2.2/ChangeLog
+  /usr/share/doc/libXcomposite-0.2.2.2/INSTALL
+  /usr/share/doc/libXcomposite-0.2.2.2/README
+
+Files included in the runtime package:
+
+  /usr/bin/cygXcomposite-1.dll
+
+------------------
+
+Port Notes:
+
+----- version 0.2.2.2-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
