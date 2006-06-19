@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11-devel compositeproto xproto
+requires: cygwin libX11 compositeproto xproto
 sdesc: "Xorg Composite extension library (development)"
 ldesc: "Xorg Composite extension library"
