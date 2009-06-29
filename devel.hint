@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libXcomposite1 libX11-devel libXext-devel libXfixes-devel compositeproto xproto
+requires: libXcomposite1 libX11-devel libXext-devel libXfixes-devel compositeproto xproto
 external-source: libXcomposite
 sdesc: "X.Org Composite extension library (development)"
 ldesc: "X.Org Composite extension library"
