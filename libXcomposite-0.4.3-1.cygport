@@ -1,7 +1,0 @@
-inherit xorg
-
-PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
-PKG_HINTS="src runtime devel"
-libXcomposite_CONTENTS=	# empty
-libXcomposite1_CONTENTS="usr/bin/cygXcomposite-1.dll usr/share/doc/"
-libXcomposite_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/man3/"

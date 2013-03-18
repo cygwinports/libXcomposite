@@ -1,0 +1,12 @@
+inherit xorg
+
+NAME="libXcomposite"
+VERSION=0.4.3
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org Composite extension library"
+DESCRIPTION="X.Org Composite extension library"
+
+PKG_NAMES="${PN}1 ${PN}-devel"
+libXcomposite1_CONTENTS="usr/bin/cygXcomposite-1.dll usr/share/doc/"
+libXcomposite_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/man3/"
