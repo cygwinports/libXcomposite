@@ -3,7 +3,7 @@ inherit xorg
 NAME="libXcomposite"
 VERSION=0.4.3
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Composite extension library"
 DESCRIPTION="X.Org Composite extension library"
 
